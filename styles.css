@@ -1,0 +1,31 @@
+body {
+	background-color:lightsteelblue;
+	color: #a6055e;
+}
+
+.container{
+	width: 80%;
+	margin: 15px auto;
+	border: 5px solid lavenderblush;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.54);
+	display: flex;
+}
+
+.box{
+	background-color: lavenderblush;
+	width: 25%;
+	border: 5px solid ;
+	padding: 10px;
+	margin: 15px;
+	border-radius: 10px;
+
+}
+
+#about-me{
+	color: navy;
+}
+
+#gallery{
+	color: #dbc204;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>9-Emerald Bistro | Pizza on Demand</title>
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+	body{
+		background-color: beige;
+		font-family: "Quattrocento", serif;
+
+	}
+
+	h1,hr, h3{
+		 font-family: "Merienda", cursive;
+		 text-align: center;
+		 color: darkred;
+	}
+
+	p{
+		 font-family: "Quattrocento", serif;
+		 color: #91755d;
+		 text-align: center;
+	}
+
+	b{
+		font-family: "Quattrocento", serif;
+	}
+
+	legend{
+		color: darkred;
+		
+	}
+
+</style>
+</head>
+<body>
+
+<form>
+	<h1>9-Emerald Bistro | Pizza on Demand 🍕</h1>
+	<hr> 
+
+	<p> Our 12" wood-fired pizzas are available for delivery. Build you custom pissa and we'll deliver it within an hour.</p>
+
+	<fieldset>
+		<legend>Customer Information</legend>
+		<label for="fullname">Full Name: </label>
+		<input type="text" name="fullname">
+
+		<br>
+
+		<label for="address">Address:</label>
+		<input type="text" name="address">
+
+		<br>
+
+		<label for="number"> Mobile Number: <label>
+		<input type="number" name="number">
+
+		<br>
+
+		<label for="email"> Email: <label>
+		<input type="email" name="email">
+
+		<br>
+
+		<label>Delivery Instruction</label> <br>
+		<textarea cols="50" rows= "5" placeholder="Please handle with care"></textarea>
+
+
+	</fieldset>
+
+	<h3>Design your dream pizza!</h3>
+
+	<fieldset>
+		<legend>Pizza Specs</legend>
+		
+		<fieldset>
+			<legend>Crust (Choose one)</legend>
+			<input type="radio" name="crust" value="classic white">
+			<label>Classic White</label><br>
+
+			<input type="radio" name="crust" value="Multigrain">
+			<label>Multigrain</label><br>
+
+			<input type="radio" name="crust" value="Cheese-stuffed">
+			<label>Cheese-stuffed crust</label><br>
+
+			<input type="radio" name="crust" value="Gluten-free">
+			<label>Gluten-free</label><br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Toppings</legend>
+			<input type="checkbox" name="toppings" value="red sauce">
+			<label>Red Sauce</label><br>
+
+			<input type="checkbox" name="toppings" value="white sauce">
+			<label>White Sauce</label><br>
+
+			<input type="checkbox" name="toppings" value="mozzarella cheese">
+			<label>Mozzarella Cheese</label><br>
+
+			<input type="checkbox" name="toppings" value="pepperoni">
+			<label>Pepperoni</label><br>
+
+			<input type="checkbox" name="toppings" value="Pineapple">
+			<label>Pineapple</label><br>
+
+			<input type="checkbox" name="toppings" value="Mushroom">
+			<label>Mushroom</label><br>
+
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Number</legend>
+
+			<label for="">How many pizza?</label>
+
+
+
+			<select id= "">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				
+			</select>
+
+
+		</fieldset>
+		
+		<input type="Submit" name="Bring me my Pizza"
+		>
+		<input type="reset" name="Try again.">
+		
+	</fieldset>
+</form>
+</body>
+</html>
